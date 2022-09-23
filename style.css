@@ -1,0 +1,72 @@
+body, html {
+    height: 100%;
+    background-color: #99b3e6;
+    font-style: #ffffff;
+
+}
+
+/* The hero image */
+.hero-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (steve.jpeg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("sarahinlisbon.jpg");
+
+  /* Set a specific height */
+  height: 100vh;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+  text-align: left;
+  position: absolute;
+  top: 32%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-family: Georgia;
+  font-weight: bold;
+}
+
+  .container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+
+.hover:hover .img-responsive {
+  opacity: 0.3;
+}
+
+.hover:hover .img {
+  opacity: 0.3;
+}
+
+.h2{
+
+}
+
+.bg-b {
+  background: #99b3e6;
+  color: #ffffff;
+  font-family: Georgia;
+  font-weight: bold;
+}
+.bg-b h1 {color: #ffffff; font-family: Georgia; font-weight: bold;}
+.bg-b h2 {color: #ffffff; font-family: Georgia; font-weight: bold;}
+.bg-b h3 {color: #ffffff; font-family: Georgia; font-weight: bold;}
+.bg-b p {color: #ffffff; font-family: Georgia; font-weight: bold;}
+
+.bg-w= {
+  background: #99b3e6;
+  color: #ffffff;
+  font-family: Georgia;
+  font-weight: bold;
+}
+.bg-w h1 {color: #ffffff; font-family: Georgia; font-weight: bold;}
+.bg-w h2 {color: #ffffff; font-family: Georgia; font-weight: bold;}
+.bg-w h3 {color: #ffffff; font-family: Georgia; font-weight: bold;}
+.bg-w p {color: #ffffff; font-family: Georgia; font-weight: bold;}
